@@ -31,7 +31,7 @@ function modelLoaded(){
 function gotPoses(results){
     if(results.length > 0 ){
         filterx= results[0].pose.nose.x-150
-        filtery= results[0].pose.nose.y-100;
+        filtery= results[0].pose.nose.y-50;
         console.log('X = '+filterx+' Y = '+filtery)
     }
 }
